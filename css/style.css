@@ -16,47 +16,42 @@
 	width: 20%;
 	display: inline-block;
 	color: grey;
-	font-size: 25px;
+	font-size: 28px;
 }
 .header__navbar{
 	display: inline-block;
-	
 	width: 70%;
 }
 .navbar{
 	width: 50%;
 	display: block;
 	margin: 0 auto;
-
 }
 .navbar__item{
 	display: inline-block;
 	position: relative;
-	
 }
 .navbar__link{
 	width: 80px;
 	height: 80px;
-	display: block;
+	display: inline-block;
 	vertical-align: middle;
    	text-align: center;
 	color: grey;
 	font-size: 20px;
 	text-decoration: none;
-
-
 }
 .navbar__link:hover{
 	border-bottom: 3px solid grey;
 }
 
 /*EMPTY STRING FOR CENTRING*/
-.navbar__link::after {
-   content: "";
-   display: block;
-	clear: both;
+.navbar__link:after {
+   	content: "";
+   	display: inline-block;
+   	vertical-align: middle;
+   	height: 100%;
 }
-
 
 
 /*CONTENT AREA*/
