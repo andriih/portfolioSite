@@ -7,6 +7,7 @@
 	display: inline-block;
 	width: 100%;
 	height: 80px;
+	margin: 0 auto;
 	border: 1px solid black;
 }
 .logo{
@@ -18,14 +19,23 @@
 	display: inline-block;
 	border:1px solid black;
 	width: 70%;
-	margin: 0 auto;
 }
 .navbar{
-
-	display: inline-block;
-	border:1px solid black;
+	width: 50%;
+	display: block;
 	margin: 0 auto;
+
 }
 .navbar__item{
 	display: inline-block;
+	
 }
+.navbar__link{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	border:1px solid black;
+}
+.navbar__link::after{
+	
+};
