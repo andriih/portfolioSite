@@ -5,9 +5,11 @@
 }
 
 body{
-	background-color: url(/img/bgc1.png);
+	
 }
-
+.wrapper{
+	width: 100%;
+}
 /*NAVBAR AREA*/
 
 .header,.footer{
@@ -15,12 +17,13 @@ body{
 	width: 100%;
 	height: 80px;
 	margin: 0 auto;
+	/*background-image: url(img/bgc.png);*/
 	background-color: #303030;
 }
 .logo{
 	width: 20%;
 	display: inline-block;
-	color: grey;
+	color: #fcf7f7;
 	font-size: 28px;
 }
 .header__navbar{
@@ -43,7 +46,7 @@ body{
 	display: inline-block;
 	vertical-align: middle;
    	text-align: center;
-	color: white;
+	color: #fcf7f7;
 	font-size: 28px;
 	text-decoration: none;
 }
@@ -63,23 +66,28 @@ body{
 
 /*CONTENT AREA*/
 .main_content_section {
-	border:1px solid black;
-	display: inline-block;
+	display:inline-block;
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
 }
 
 .content__about,.content__portfolio,.content__contact{
-	border:1px solid black;
-	display: inline-block;
-	width: 100%;
+	display: block;
+	width: 70%;
 	height: 300px;
 	margin: 0 auto;
+}
+
+.content__about{
+	padding: 30px;
+	font-size: 25px;
+	height: 600px;
+	text-align: justify;
 }
 
 /*FOOTER*/
 
 .footer{	
-	color: grey;	
+	color: #fcf7f7;	
 }
