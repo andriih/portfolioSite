@@ -111,10 +111,7 @@ html,body{
 	height: 600px;
 	text-align: justify;
 }
-#content__portfolio{
-	display: block;
-	height: 20px;
-}
+
 .content__about{
 	margin-top: 50px;
 	color: #F7FFF7;
