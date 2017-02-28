@@ -16,7 +16,10 @@ html,body{
 	position: relative;
 }
 /*NAVBAR AREA*/
-
+img{
+     height: 200px;
+    width: 200px;
+}
 .header,.footer{
 	display: inline-block;
 	width: 100%;
@@ -103,11 +106,11 @@ html,body{
 .content__about,.content__portfolio,.content__contact{
 	display: block;
 	color: black ;
-	width: 70%;
+	width: 50%;
 	margin: 0 auto;
 	padding-top: 100px;
     font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	height: 600px;
 	text-align: justify;
 }
