@@ -57,6 +57,7 @@ html,body{
 }
 .navbar__link:hover{
 	border-bottom: 3px solid #B7B7B7;
+	border-top: 3px solid   #303030;
 	color: #B7B7B7;
 }
 
@@ -79,23 +80,29 @@ html,body{
 
 .content__about,.content__portfolio,.content__contact{
 	display: block;
+	color: #fcf7f7 ;
 	width: 70%;
 	height: 300px;
 	margin: 0 auto;
 	padding: 30px;
-	font-size: 25px;
+	font-size: 1.5em;
 	height: 600px;
 	text-align: justify;
 }
+.content__wrapper{
+	background-color: black;
+}
+
 .content__about{
 	margin-top: 50px;
 }
 
+
 /*FOOTER*/
-.hFooter{
+/*.hFooter{
 	clear: both;
 	height: 50px;
-}
+}*/
 .footer{
 	height: 50px;	
 	margin-top: -50px;
