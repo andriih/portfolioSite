@@ -27,10 +27,16 @@ html,body{
 .header{
    	position: fixed;
 }
-.logo{
+.logo__container{
 	width: 20%;
 	display: inline-block;
+	
+}
+.logo__link{
+	display: block;
+	text-decoration: none;
 	color: #fcf7f7;
+	padding-left: 50px;
 	font-size: 1.5em;
 }
 .header__navbar{
@@ -75,20 +81,23 @@ html,body{
 /*CONTENT AREA*/
 .main_content_section {
 	display:inline-block;
+	min-height: 100%; 
 	width: 100%;
 	margin: 0 auto;
 }
 .about__wrapper,.portfolio__wrapper,.contact__wrapper{
-	height: 2000px;
+	/*height: 2000px;*/
 }
 .about__wrapper{
 	background-color: #252227;
+	
 }
 .portfolio__wrapper{
 	background-color: #4A8C69;
 }
 .contact__wrapper{
 	background-color: #57412E;
+	
 }
 
 .content__about,.content__portfolio,.content__contact{
@@ -96,7 +105,7 @@ html,body{
 	color: black ;
 	width: 70%;
 	margin: 0 auto;
-	padding: 30px;
+	padding-top: 100px;
     font-family: 'Roboto', sans-serif;
 	font-size: 1.5em;
 	height: 600px;
@@ -104,7 +113,11 @@ html,body{
 }
 
 .content__about{
-	margin-top: 100px;
+	margin-top: 50px;
+	color: #F7FFF7;
+}
+.content__contact{
+	color: #F7FFF7;
 }
 
 /*FOOTER*/
