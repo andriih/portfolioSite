@@ -53,7 +53,7 @@ html,body{
 	display: inline-block;
 	vertical-align: middle;
    	text-align: center;
-	color: #fcf7f7;
+	color: #F7FFF7;
 	font-size: 1em;
 	text-decoration: none;
 }
@@ -76,15 +76,25 @@ html,body{
 .main_content_section {
 	display:inline-block;
 	width: 100%;
-	min-height: 100%;
 	margin: 0 auto;
+}
+.about__wrapper,.portfolio__wrapper,.contact__wrapper{
+	height: 2000px;
+}
+.about__wrapper{
+	background-color: #252227;
+}
+.portfolio__wrapper{
+	background-color: #4A8C69;
+}
+.contact__wrapper{
+	background-color: #57412E;
 }
 
 .content__about,.content__portfolio,.content__contact{
 	display: block;
-	color: #fcf7f7 ;
+	color: black ;
 	width: 70%;
-	height: 300px;
 	margin: 0 auto;
 	padding: 30px;
     font-family: 'Roboto', sans-serif;
@@ -92,20 +102,13 @@ html,body{
 	height: 600px;
 	text-align: justify;
 }
-.content__wrapper{
-	background-color: black;
-}
 
 .content__about{
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
-
 /*FOOTER*/
-/*.hFooter{
-	clear: both;
-	height: 50px;
-}*/
+
 .footer{
 	height: 50px;	
 	margin-top: -50px;
