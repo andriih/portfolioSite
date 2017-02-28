@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio site for jsSolutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andriih/portfolioSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andriih/portfolioSite/issues"
+  },
+  "homepage": "https://github.com/andriih/portfolioSite#readme",
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  }
+}

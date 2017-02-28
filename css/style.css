@@ -87,6 +87,9 @@ html,body{
 	height: 600px;
 	text-align: justify;
 }
+.content__about{
+	margin-top: 50px;
+}
 
 /*FOOTER*/
 .hFooter{
