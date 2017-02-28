@@ -127,3 +127,74 @@ html,body{
 	margin-top: -50px;
 	color: #fcf7f7;	
 }
+
+
+@media screen and (max-width: 788px) {
+    
+    .logo__container{
+	width:100%;
+	display: block;
+        margin: 0 auto;
+	
+    }
+    
+    .header{
+        display: block;
+        height: 180px;
+    }
+    .header__navbar{
+        display: block;
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .navbar__item{
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        margin-right: 15px;
+    }
+    .navbar__link:hover{
+        border-bottom: 3px solid #B7B7B7;
+        border-top: 3px solid   #B7B7B7;
+        color: #B7B7B7;
+    }
+    .navbar__link{
+		width: 100%;
+		height: 50px;
+		display: block;
+		vertical-align: middle;
+	   	text-align: center;
+		color: #F7FFF7;
+		font-size: 1em;
+		text-decoration: none;
+	}
+    
+    .main_content_section {
+        display:inline-block;
+        min-height: 100%; 
+    }
+.about__wrapper,.portfolio__wrapper,.contact__wrapper{
+	display:inline-block;
+}
+    
+    .content__about,
+    .content__portfolio,
+    .content__contact{
+        display: block;
+        width: 80%;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        text-align: justify;
+        
+    }
+    
+    .content__about{
+        margin-top: 180px;
+    }
+    
+}
