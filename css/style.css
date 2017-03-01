@@ -16,9 +16,18 @@ html,body{
 	position: relative;
 }
 /*NAVBAR AREA*/
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+	color:#B7B7B7;
+}
 img{
-     height: 200px;
+    height: 200px;
     width: 200px;
+}
+.avatar{
+	margin: 10px;
+	float: left;
 }
 .header,.footer{
 	display: inline-block;
@@ -88,14 +97,14 @@ img{
 	width: 100%;
 	margin: 0 auto;
 }
-.about__wrapper,.portfolio__wrapper,.contact__wrapper{
+.about__wrapper,.skills__wrapper,.contact__wrapper{
 	/*height: 2000px;*/
 }
 .about__wrapper{
 	background-color: #252227;
 	
 }
-.portfolio__wrapper{
+.skills__wrapper{
 	background-color: #4A8C69;
 }
 .contact__wrapper{
@@ -103,7 +112,7 @@ img{
 	
 }
 
-.content__about,.content__portfolio,.content__contact{
+.content__about,.content__skills,.content__contact{
 	display: block;
 	color: black ;
 	width: 50%;
@@ -124,8 +133,11 @@ img{
 }
 
 /*FOOTER*/
-
+footer{
+	text-align: center;
+}
 .footer{
+
 	height: 50px;	
 	margin-top: -50px;
 	color: #fcf7f7;	
@@ -180,12 +192,12 @@ img{
         display:inline-block;
         min-height: 100%; 
     }
-.about__wrapper,.portfolio__wrapper,.contact__wrapper{
+.about__wrapper,.portfolio__skills,.contact__wrapper{
 	display:inline-block;
 }
     
     .content__about,
-    .content__portfolio,
+    .content__skills,
     .content__contact{
         display: block;
         width: 80%;
