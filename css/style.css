@@ -209,7 +209,7 @@ footer{
 .about__wrapper,.skills__wrapper,.contact__wrapper{
 	width: 100%;
 	padding-top: 200px;
-	display:inline-block;
+	display:block;
 	overflow: hidden;
 }
 .about__wrapper{
