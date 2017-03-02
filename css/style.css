@@ -111,7 +111,7 @@ a{
 	margin: 0 auto;
 }
 .about__wrapper,.skills__wrapper,.contact__wrapper{
-	/*height: 2000px;*/
+	height: 1000px;
 }
 .about__wrapper{
 	background-color: #252227;
@@ -128,12 +128,12 @@ a{
 .content__about,.content__skills,.content__contact{
 	display: block;
 	color: black ;
-	width: 50%;
+	width: 80%;
 	margin: 0 auto;
 	padding-top: 100px;
     font-family: 'Roboto', sans-serif;
 	font-size: 1.2em;
-	height: 600px;
+	height: 100%;
 	text-align: justify;
 }
 
@@ -206,14 +206,16 @@ footer{
         min-height: 100%; 
     }
 .about__wrapper,.skills__wrapper,.contact__wrapper{
+	width: 100%;
 	display:inline-block;
+	overflow: hidden;
 }
     
     .content__about,
     .content__skills,
     .content__contact{
         display: block;
-        width: 80%;
+        width: 100%;
         padding: 10px;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5em;
