@@ -14,6 +14,7 @@ html,body{
 	width: 100%;
 	min-height: 100%;
 	position: relative;
+
 }
 /*NAVBAR AREA*/
 h1{
@@ -207,8 +208,12 @@ footer{
     }
 .about__wrapper,.skills__wrapper,.contact__wrapper{
 	width: 100%;
+	padding-top: 200px;
 	display:inline-block;
 	overflow: hidden;
+}
+.about__wrapper{
+	padding-top: 50px;
 }
     
     .content__about,
